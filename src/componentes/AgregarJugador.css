@@ -1,0 +1,81 @@
+.toast.error {
+    position:fixed;
+    bottom:10px;
+    z-index: 99999999;
+    background-color:rgba(230, 45, 57, 0.85);
+    color:white;
+    border:1px solid rgba(230, 45, 57, 1);
+    width:100%
+}
+.toast.exito {
+    position:fixed;
+    bottom:0;
+    z-index: 99999999;
+    background-color:rgba(21, 126, 7, 0.85);
+    color:white;
+    border:1px solid rgba(21, 126, 7, 1)
+}
+
+
+    
+.agregarJugador{
+    background-color:#FFF; 
+    border-radius: 10px;
+    padding: 0px;
+    overflow: hidden;
+    filter: drop-shadow(3px 3px 140px rgba(0,0,0,0.2));
+    margin:10px 0;
+}
+
+.agregarJugador h4{
+    background-color:#0E4F81;
+    color:white;
+    font-size: 14px;
+    font-weight:bold;
+    padding:10px
+
+}
+
+.agregarJugador [type="text"],.agregarJugador [type="date"], [type="number"] {
+   border:none;
+   border-bottom:2px solid #0E4F81;
+   background-color:transparent;
+   
+}
+
+.agregarJugador > div {
+   padding: 10px;
+   overflow:hidden;
+}
+.agregarJugador >div >div{
+    width:50%;
+    float:left;
+
+}
+
+
+.agregarJugador [type="button"]{
+border:none;
+padding: 5px 10px;
+background-color: #0E4F81 ;
+color:white;
+font-size: 12px;
+font-weight: bold;
+border-radius:3px;
+margin: 0 10px;
+}
+
+
+.agregarJugador label{
+margin:10px;
+display:block;
+float:left;
+font-size: 12px;
+font-weight:bold;
+width:100%
+
+}
+
+.agregarJugador input:focus {
+    outline:none
+}

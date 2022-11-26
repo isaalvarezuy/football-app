@@ -1,0 +1,67 @@
+
+    
+    .agregarEquipo{
+        background-color:#FFF; 
+        border-radius: 10px;
+        padding: 0px;
+        overflow: hidden;
+        filter: drop-shadow(3px 3px 140px rgba(0,0,0,0.2));
+        margin:10px 0;
+    }
+    
+    .agregarEquipo h4{
+        background-color:#0E4F81;
+        color:white;
+        font-size: 14px;
+        font-weight:bold;
+        padding:10px
+
+    }
+    
+   .agregarEquipo [type="text"]{
+       border:none;
+       border-bottom:2px solid #0E4F81;
+       background-color:transparent;
+       
+   }
+
+   .agregarEquipo > div {
+       padding: 10px;
+   }
+
+
+   .agregarEquipo [type="button"]{
+    border:none;
+    padding: 5px 10px;
+    background-color: #0E4F81 ;
+    color:white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius:3px;
+    margin: 0 10px;
+}
+
+.agregarEquipo [type="color"]{
+    border:none;
+    background-color: transparent;
+    padding: 0;
+  width: 200%;
+  height: 200%;
+  cursor: pointer;
+  transform: translate(-25%, -25%)
+}
+.agregarEquipo #colorcito {
+    border-radius: 40px;
+    overflow: hidden;
+    width: 30px;
+    height:30px
+}
+
+.agregarEquipo label{
+    margin:10px;
+    display:block;
+    float:left;
+    font-size: 12px;
+    font-weight:bold
+
+}
